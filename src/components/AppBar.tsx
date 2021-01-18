@@ -51,7 +51,9 @@ export default class AppBar extends Component<IAppBar, IState> {
 
   componentDidMount() {
     this.props.dontHide ? undefined : window.addEventListener('scroll', this.hideBar, true)
-    setTimeout(() => this.changeMusic(false), 500)
+    this.audio.autoplay = true
+    this.audio.loop = true
+    this.audio.load()
     this.setMusicVolume(this.state.audioVol)
   }
 
