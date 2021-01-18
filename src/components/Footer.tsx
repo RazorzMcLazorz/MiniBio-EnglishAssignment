@@ -10,10 +10,8 @@ export default class Footer extends Component {
           <div>Created by Nathaniel Young using</div>
           <img src='\assets\React1.png'></img>
           <a>React</a>
-          <img src='\assets\React1.png'></img>
+          <img src='\assets\typescriptLogo.png'></img>
           <a>Typescript</a>
-          {/* <img src='\assets\redux.png'></img>
-          <a>Redux</a> */}
           <img src='\assets\SCSS.png'></img>
           <a>SCSS</a>
         </div>

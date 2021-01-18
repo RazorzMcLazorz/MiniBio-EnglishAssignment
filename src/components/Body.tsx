@@ -6,7 +6,7 @@ export default class Body extends Component {
   render() {
     return (
       <div className='body'>
-        <Typography className='title' variant='h2'>
+        <Typography className='title' variant='h2' style={{ textAlign: 'center' }}>
           Nathaniel's Mini Bio
         </Typography>
         <Paragraph>
@@ -22,6 +22,8 @@ export default class Body extends Component {
           divorced when I was a kid, and so I only really went to see my brothers and sisters here
           and there, I mostly lived alone with my mom.
         </Paragraph>
+        <img src='/assets/DadGraduatePic.jpg' style={{ width: 300 }} title="me with my dad" />
+        <img src='/assets/momGraduatePic.jpg' style={{ width: 300 }} title="me with my mom" />
         <Paragraph>
           I’m currently going to UVU for a bachelor’s in computer science, specifically focusing on
           full-stack development, which this meaning I get to know how to do all sides of

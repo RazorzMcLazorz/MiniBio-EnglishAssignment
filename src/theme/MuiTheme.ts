@@ -1,6 +1,6 @@
 import { createMuiTheme } from '@material-ui/core/styles'
 import grey from '@material-ui/core/colors/grey'
-import purple from '@material-ui/core/colors/purple'
+import cyan from '@material-ui/core/colors/cyan'
 
 /**
  * Theme for the new Material UI Provider
@@ -12,7 +12,7 @@ export const MuiTheme = createMuiTheme({
       main: grey[900]
     },
     secondary: {
-      main: purple[500]
+      main: cyan[500]
     },
     background: {
       default: grey[500]
